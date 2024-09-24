@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntSys Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- First line for photo above "Welcome to AntSys Portfolio" -->
+        <img src="profile.png" alt="Photo Above Welcome">
+        <h1>Welcome to the S3 Terraform Project page </h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About this project</h2>
+        <p> This project involves leveraging Terraform and AWS S3 to create a fully automated setup for hosting static websites in the cloud. </p>
+    </section>
+
+    <section id="projects">
+        <!-- Second line for photo below "Terraform with S3" -->
+        <img src="Diagram.jpg" alt="Photo Below Terraform">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Terraform with S3</h3>
+            <p>This project showcases the use of Terraform to provision infrastructure, including S3 buckets for scalable storage, Chat GPT for a basic html webpage and Lucidchart for visual diagrams.</p>
+        </div>
+        <div class="project">
+            <h3>ChatGPT Integration</h3>
+            <p>Our integration of ChatGPT enables intelligent conversation capabilities in various applications.</p>
+        </div>
+    </section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><a href="mailto:anthonycastleberry.it@gmail.com">anthonycastleberry.it@gmail.com</a></p>
+</section>
+
+       
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AntSys. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
